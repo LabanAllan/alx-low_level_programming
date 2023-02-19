@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point 
- * Description : 'using puts function'
+ * Description : 'using printf function'
  * Return: Always (0)(Success)
  */
 int main(void)
