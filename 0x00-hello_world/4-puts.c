@@ -1,10 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - Entry point 
- *
- * Discription : 'using puts function'
- *
- * Return: Aalways (0)(succes)
+ * Description : 'using puts function'
+ * Return: Always (0)(Success)
  */
 int main(void)
 {
