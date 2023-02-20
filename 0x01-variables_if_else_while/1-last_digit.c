@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - Entry point
+ * Description : 'using puts function'
+ * Return: Always (0)(Success)
+ */
 int main(void)
 {
 	int n, last_digit;
@@ -11,7 +16,7 @@ int main(void)
 
 			if (last_digit > 5)
 				{
-				printf("%i and is greater than 5\n", n, last_digit)
+				printf("%i and is greater than 5\n", n, last_digit);
 				}
 			else if (last_digit < 6 && != 0)
 				{
