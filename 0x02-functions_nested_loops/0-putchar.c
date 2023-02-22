@@ -1,11 +1,9 @@
-#include<unistd._putchar(char a)ih>
-/** 
-  * _putchar - writes the character c to stdout 
-  * @c: The character to print 
-  * 
-  * Return: On success 1. 
-  * On error, -1 is returned, and errno is set appropriately. 
-  */ 
+#include<unistd._putchar(char a)
+/**
+ * main - Entry point
+ * Description : 'using puts function'
+ * Return: Always (0)(Success)
+ */
 		int main(void)
 	{
 		_putchar('_');
