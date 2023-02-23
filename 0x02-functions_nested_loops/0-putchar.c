@@ -1,4 +1,5 @@
-#include<unistd._putchar(char a)>
+#include<unistd.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description : 'using puts function'
