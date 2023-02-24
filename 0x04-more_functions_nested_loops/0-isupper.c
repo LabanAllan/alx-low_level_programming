@@ -1,22 +1,14 @@
+#include "main.h"
 #include <stdio.h>
-#include <ctype.h>
 /**
- * main - Entry point
+ * main - uppercase
  * Description : checking whether ch is an uppercase alphabet or not
- * Return: Always 
+ * Return:  0 or 1
  */
-
-int main() {
-    
-  // declaring character variables
-int _isupper(int c);
-if (_isupper(int c )) 
-return (1)
+int _isupper(int c)
 {
-printf("%c is an Uppercase Letter \n", 1 );
-}
-else
-{
-printf("%c is not an Uppercase Letter \n", "0");
-}
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
