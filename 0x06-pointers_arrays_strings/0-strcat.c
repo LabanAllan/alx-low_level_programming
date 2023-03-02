@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Entry point 
- * Description : 
+ * main - function _strcat concatenates two strings
+ * Description
  * Return: pointer to the resulting string dest
  */
 
