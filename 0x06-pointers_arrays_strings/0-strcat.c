@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
  * main - function _strcat concatenates two strings
- * Description
- * Return: pointer to the resulting string dest
+ * @dest: input value
+ * @src: input value
+ * Return: void
  */
 
 char *_strcat(char *dest, char *src)
