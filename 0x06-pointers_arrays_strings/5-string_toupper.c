@@ -9,10 +9,10 @@ char *string_toupper(char *x)
 	int i;
 
 	i = 0;
-	while (x[i] != '\n')
+	while (x[i])
 	{
 		if (x[i] >= 'a' && x[i] <= 'z')
-			x[i] = x[i] - 32;
+			x[i] -= 32;
 
 		i++;
 	}
