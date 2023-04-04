@@ -1,24 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <"lists.h">
-
-struct listint_t
+#include "lists.h"
+/**
+ * describe: function that prints all the elements 
+ * @num: number of nudes
+ * @h: node.
+ * return: number of nodes.
+ */
+size_t print_listint(const listint_t *h)
 {
-	struct *head;
-	struct *new;
-	struct hello = {8, NULL};
-
-	int n
-};
-
-int main(void)
-
-{
-	/*initializing struct*/
-	int *head, *new, n;
+	size_t num = 0;
 
 
+	while (h)
+	{
+		 printf("%d", h->n);
+			 num++;
+		 h = h->next;
+	}
+	return  (num);
 }
-
-	
