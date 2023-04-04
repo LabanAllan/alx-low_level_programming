@@ -3,7 +3,7 @@
 #include <string.h>
 #include "lists.h"
 /**
- * describe: function that prints all the elements 
+ * describe: function that prints all the elements.
  * @num: number of nudes
  * @h: node.
  * return: number of nodes.
