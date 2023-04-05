@@ -5,6 +5,7 @@
 /**
  * pop_listint - function that deletes head node of the linked list.
  * @n - head node to be returned.
+ * @head - first node to be deleted.
  */
 int pop_listint(listint_t **head)
 {
@@ -15,8 +16,8 @@ int pop_listint(listint_t **head)
 		return (0);
 
 	num = (*head)->n;
-	temp = (*head)-> next;
-	free (*head);
+	temp = (*head)->next;
+	free(*head);
 	*head = temp;
-	 return (num);
+	return (num);
 }
