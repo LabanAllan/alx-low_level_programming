@@ -1,1 +1,2 @@
-0x09. C - Static libraries
+C - Singly linked lists
+
